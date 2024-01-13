@@ -35,5 +35,7 @@ public class WebstackGunsApplication {
     public static void main(String[] args) {
         SpringApplication.run(WebstackGunsApplication.class, args);
         logger.info("Application is success!");
+        logger.info("http://localhost:8080/");
+        logger.info("http://localhost:8080/admin");
     }
 }
